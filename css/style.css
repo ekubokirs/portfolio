@@ -230,12 +230,15 @@ Parallax
 	background-size: cover;
   background-position: center center;
   height: 400px;
+  background-repeat: no-repeat;
 }
+
 #parallax2{	
-	background-image: url(../img/parallax/japan.jpg);
+	background-image: url(../img/parallax/nebuta.jpg);
 	background-size: cover;
   background-position: center center;
   height: 400px;
+  background-repeat: no-repeat;
 }
 
 #parallax3{
@@ -243,6 +246,7 @@ Parallax
 	background-size: cover;
 	background-position: center center;
   height: 400px;
+  background-repeat: no-repeat;
 }
 
 /*@media only screen 
@@ -674,6 +678,14 @@ more media queries
 	}	
 	.og-details {
 		padding: 0 20px;
+	}
+
+}
+
+@media (max-width:950px) {
+
+	#parallax1{	
+		
 	}
 
 }
