@@ -39,9 +39,11 @@ h6 {
 
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 	color: #3a3a3a;
-	font-weight: 700;
+	font-weight: 900;
 	margin-bottom: 20px;
-	font-family: 'Montserrat', sans-serif;
+	/*font-family: 'Montserrat', sans-serif;*/
+	font-family: 'Poiret One', cursive;
+
 }
 
 
@@ -135,8 +137,9 @@ nav.navbar.fixed-to-top{
 
 .navbar-default .navbar-nav>li>a {
 	color: #fff;
-	font-weight: 700;
+	font-weight: 900;
 	text-transform: uppercase;
+	font-family: 'Poiret One', cursive;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
@@ -156,7 +159,10 @@ nav.navbar.fixed-to-top{
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 2em;
+	font-family: 'Poiret One', cursive;
+
 }
+
 
 /* ================================
 Home sections
@@ -221,28 +227,30 @@ Parallax
 
 #parallax1{	
 	background-image: url(../img/parallax/ireland2.png);
-	/*background-size: cover;*/
-  /*background-position: center center;*/
-  /*height: 400px;*/
+	background-size: cover;
+  background-position: center center;
+  height: 400px;
 }
 #parallax2{	
 	background-image: url(../img/parallax/japan.jpg);
-	/*background-size: cover;*/
-  /*background-position: center center;*/
-  /*height: 400px;*/
+	background-size: cover;
+  background-position: center center;
+  height: 400px;
 }
 
 #parallax3{
 	background-image: url(../img/parallax/bath.jpg);
-	/*background-size: cover;*/
-	/*background-position: center center;*/
-  /*height: 400px;*/
-
+	background-size: cover;
+	background-position: center center;
+  height: 400px;
 }
 
-@media only screen 
+/*@media only screen 
 and (max-width : 900px) {
-}
+	#parallax1 {
+		height: 200px;
+	}
+}*/
 
 /* ================================
 Intro
@@ -270,16 +278,18 @@ Intro
 .intro-text h1 {
 	color:#fff;
 	text-align:center;
-	font-weight: 700;
-	font-size: 55px; 
+	font-weight: 00;
+	font-size: 65px; 
 	line-height:1.1em;
-	padding-top: 2%;
+	padding-top: 1%;
 	text-transform: uppercase;
 }
 
 .intro-text p {
 	color: white;
 	font-size: 35px;
+	font-family: 'Poiret One', cursive;
+
 	/*text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;*/
 }
 
@@ -568,8 +578,12 @@ Contact
 ================================= */
 
 .social-icon {
-	width: 75px;
-	padding-right: 20px;
+	width: 100px;
+	padding: 20px;
+}
+
+.contact-icon {
+	width: 85px;
 }
 
 
