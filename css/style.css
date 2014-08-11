@@ -714,4 +714,16 @@ more media queries
 	header h1{
 		font-size: 70px;
 	}
+
+	#parallax1{
+		display: none;
+	}
+
+	#parallax2{
+		display: none;
+	}
+
+	#parallax3{
+		display: none;
+	}
 }
