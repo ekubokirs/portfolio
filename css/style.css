@@ -226,15 +226,14 @@ Parallax
 ============================= */
 
 #parallax1{	
-	background-image: url(../img/parallax/ireland2.png);
+	background-image: url(../img/parallax/flower.jpg);
 	background-size: cover;
   background-position: center center;
-  height: 400px;
   background-repeat: no-repeat;
 }
 
 #parallax2{	
-	background-image: url(../img/parallax/nebuta.jpg);
+	background-image: url(../img/parallax/purple.jpg);
 	background-size: cover;
   background-position: center center;
   height: 400px;
@@ -242,7 +241,7 @@ Parallax
 }
 
 #parallax3{
-	background-image: url(../img/parallax/bath.jpg);
+	background-image: url(../img/parallax/sunset.jpg);
 	background-size: cover;
 	background-position: center center;
   height: 400px;
@@ -269,7 +268,7 @@ Intro
 	z-index:2;
 	background-size:cover;
 	background-position: center center;
-	background-image: url(../img/aomori.jpg);
+	background-image: url(../img/header.jpg);
 }
 
 .intro-text {
@@ -384,6 +383,12 @@ Services
 /* ================================
 Works
 ================================= */
+.thumb{
+	margin: 25%;
+	margin-top: 0;
+	width: 50%;
+	border-radius: 100%
+}
 .og-grid {
 	list-style: none;
 	padding: 20px 0;
@@ -430,7 +435,8 @@ Works
 	margin-top: 10px;
 	text-align: left;
 	height: 0;
-	overflow: hidden;
+	overflow: scroll;
+	z-index: 1;
 }
 
 .og-expander-inner {
